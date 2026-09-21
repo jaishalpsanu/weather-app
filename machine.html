@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="machine.css" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="main">
+        <div class="weather">
+            <div>
+                <button id="theme">🌙 Dark</button>
+            </div>
+            <div class="searchbox">
+                <input class="inputbox" type="text" placeholder="Enter city...">
+                <button id="searchbtn">search</button>
+            </div>
+            <div class="result">
+                <p class="error">Enter location</p>
+                <h1 class="temparature">0°C</h1>
+                <h2 class="condition">----</h2>
+                <h2 class="humidity">Humidity : 0%</h2>
+                <h2 class="windSpeed">Wind Speed : 0 km/h</h2>
+                <button id="favoriteBtn">⭐ Add to Favorites</button>
+
+            </div>
+           <div class="favoritesBox">
+    <h3>Favorites</h3>
+    <div id="favoriteList"></div>
+        </div>
+    </div>
+    <script src="machine.js"></script>
+
+</body>
+
+</html>

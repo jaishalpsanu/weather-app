@@ -1,0 +1,84 @@
+.body{
+ background-image:url("e6e2ed9a-eb19-4977-833b-f783b51874b8.png") ;
+}
+
+#theme{
+    position:absolute;
+    right: 200px;
+    top: 100px;
+    border-radius: 40px;
+    padding: 10px;
+    font-size: large;
+}
+.changebg{
+    background-image:url("4b72a38d-e402-4279-887c-9fc98241a8c1.png") ;
+}
+.searchbox{
+    position: absolute;
+    right: 700px;
+    top: 150px;
+   background: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+    font-size:x-large;
+}
+.result{
+    position: absolute;
+    top: 230px;
+    left: 570px;
+background: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(10px);;
+    padding: 20px;
+    border-radius: 20px;
+}
+.fav{
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    font-size: xx-large;
+}
+.favoritesBox {
+    position: absolute;
+    top: 230px;
+    left: 900px;
+
+    width: 220px;
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.favoritesBox h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.favoriteItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 8px 0;
+    padding: 8px;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.removeBtn {
+    border: none;
+    background: transparent;
+
+    font-size: 18px;
+    cursor: pointer;
+
+    color: red;
+}
